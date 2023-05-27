@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  <Target BeforeTargets="CoreCompile" Name="CallWriteCodeFragment">
+    <ItemGroup>
+      <TestAttribute Include="System.Reflection.AssemblyTitleAttribute">
+        <_Parameter1>1.2.3</_Parameter1>
+      </TestAttribute>
+    </ItemGroup>
+    <WriteCodeFragment AssemblyAttributes="@(TestAttribute)" Language="C#" OutputFile=".test.cs" />
+  </Target>
+</Project>

@@ -15,3 +15,6 @@ package-lock.json
 
 # Ignore built assets from npm pack.
 *.tgz
+
+bin/
+obj/
