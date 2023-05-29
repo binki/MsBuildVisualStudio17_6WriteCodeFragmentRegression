@@ -82,15 +82,6 @@ MSBuild version 17.6.3+07e294721 for .NET Framework
 17.6.3.22601
 ```
 
-### 17.6.2
-
-Bug present.
-
-```
-MSBuild version 17.6.3+07e294721 for .NET Framework
-17.6.3.22601
-```
-
 ```
 Microsoft Visual Studio Community 2022
 Version 17.6.0
@@ -145,6 +136,15 @@ Microsoft Visual F# Tools
 
 Visual Studio IntelliCode   2.2
 AI-assisted development for Visual Studio.
+```
+
+### 17.6.2
+
+Bug present.
+
+```
+MSBuild version 17.6.3+07e294721 for .NET Framework
+17.6.3.22601
 ```
 
 ```
