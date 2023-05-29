@@ -196,3 +196,7 @@ Microsoft Visual F# Tools
 Visual Studio IntelliCode   2.2
 AI-assisted development for Visual Studio.
 ````
+
+## Status
+
+This has been reported to Microsoft as [Visual Studio feedback item 10378111](https://developercommunity.visualstudio.com/t/-/10378111).
